@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">小角虫</string>
+
+    <string name="yuedu">阅读</string>
+    <string name="shoucang">收藏</string>
+    <string name="quanzi">圈子</string>
+    <string name="wode">我的</string>
+    <string name="manhua">漫 画</string>
+    <string name="xiaoshuo">小 说</string>
+    <string name="tiaoman">条 漫</string>
+
+    <string name="tab_everyDay">日 更</string>
+    <string name="tab_recommend">推 荐</string>
+    <string name="tab_rank">排 行</string>
+    <string name="tab_category">分 类</string>
+    <string name="ed_title">精品推荐Y(^o^)Y</string>
+    <string name="week_title">这本漫画真厉害！一周人气(*^__^*)</string>
+    <string name="newbook_title">新作推荐(╭￣3￣)╭</string>
+    <string name="lt_title">最近更新</string>
+    <string name="today_update">今日更新O(∩_∩)O~~</string>
+    <string name="pl_title">个性推荐</string>
+    <string name="edrecomm_title">小编推荐</string>
+    <string name="section_01_title">爽快向</string>
+    <string name="section_01_flag">(*′o`*)</string>
+    <string name="section_02_title">重口向</string>
+    <string name="section_03_title">逗比向</string>
+    <string name="section_03_flag">≧▽≦y</string>
+    <string name="section_04_title">合作区</string>
+    <string name="section_04_flag">(′▽`〃)</string>
+    <string name="section_05_flag">(＞д＜)</string>
+    <string name="section_05_title">女生向</string>
+    <string name="more_title">更多</string>
+    <string name="hit_title">点击排行</string>
+    <string name="con_title">收藏排行</string>
+    <string name="com_title">评论排行</string>
+    <string name="need_more">查看更多</string>
+    <string name="change_another">换一批</string>
+    <string name="copyright">Copyright© Kidstone All Rights Reserved</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcom_constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="name.kangjun.xjc.view.WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/chongniang_image_launch_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="80dp"
+        android:src="@mipmap/iv_loading_chongniang"
+        app:layout_constraintBottom_toBottomOf="@+id/welcom_constraintLayout"
+        app:layout_constraintLeft_toLeftOf="@+id/welcom_constraintLayout"
+        app:layout_constraintRight_toRightOf="@+id/welcom_constraintLayout"
+        app:layout_constraintTop_toTopOf="@+id/welcom_constraintLayout"
+        android:contentDescription="iv_loading_chongniang"
+        tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copyright"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="@+id/welcom_constraintLayout"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/welcom_constraintLayout" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/copyright"
+            android:paddingBottom="10dp"
+            android:src="@mipmap/iv_djc_logo"
+            app:layout_constraintBottom_toBottomOf="@+id/welcom_constraintLayout"
+            app:layout_constraintRight_toLeftOf="@+id/chongniang_image_launch_screen"
+            app:layout_constraintLeft_toRightOf="@+id/chongniang_image_launch_screen" />
+
+
+</android.support.constraint.ConstraintLayout>

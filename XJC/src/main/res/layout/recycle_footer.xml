@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:gravity="center">
+
+    <ProgressBar
+        android:id="@+id/footer_reflash"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:indeterminateDrawable="@anim/recycle_loading_progressbar_anim"
+        android:visibility="visible"
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="正在加载，请稍候……"
+        android:gravity="center"/>
+
+</LinearLayout>
