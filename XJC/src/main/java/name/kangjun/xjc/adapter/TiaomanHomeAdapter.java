@@ -79,15 +79,15 @@ public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         //条漫的item
         if (holder instanceof ItemViewHolder) {
             final TiaomanHomeItemBean item = mTiaomanHomeItem.get(position);
-            ((ItemViewHolder)holder).labelOfName.setText(item.getTitle());
-            ((ItemViewHolder)holder).labelOfType.setText(item.getClass_label().getClass_name());
-            ((ItemViewHolder)holder).labelOfAuthor.setText(item.getAuthor());
-            ((ItemViewHolder)holder).imageOfChapter.setImageURI(Uri.parse(strCDN + item.getThumb_rank()));
-            ((ItemViewHolder)holder).labelOfChapterName.setText(item.getUpdate_chapter_name());
-            ((ItemViewHolder)holder).labelOfCommentNumber.setText(item.getComment_num());
+            ((ItemViewHolder) holder).labelOfName.setText(item.getTitle());
+            ((ItemViewHolder) holder).labelOfType.setText(item.getClass_label().getClass_name());
+            ((ItemViewHolder) holder).labelOfAuthor.setText(item.getAuthor());
+            ((ItemViewHolder) holder).imageOfChapter.setImageURI(Uri.parse(strCDN + item.getThumb_rank()));
+            ((ItemViewHolder) holder).labelOfChapterName.setText(item.getUpdate_chapter_name());
+            ((ItemViewHolder) holder).labelOfCommentNumber.setText(item.getComment_num());
         }
         //上拉加载的item
-        else if (holder instanceof FootViewHolder){
+        else if (holder instanceof FootViewHolder) {
             //没有什么可以刷新的
         }
     }

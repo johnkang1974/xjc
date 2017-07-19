@@ -12,21 +12,16 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1e27d3-1331-4796-9b83-59a4c31d7bae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/logging_interceptor_3_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/XJC.iml" afterPath="$PROJECT_DIR$/XJC/XJC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/build.gradle" afterPath="$PROJECT_DIR$/XJC/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java" />
     </list>
     <ignored path="Xjc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,42 +55,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TiaomanHomeAdapter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TiaomanHomeAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="-282">
+              <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+              <folding>
+                <element signature="e#3260#3261#0" expanded="true" />
+                <element signature="e#3310#3311#0" expanded="true" />
+                <element signature="e#4472#4473#0" expanded="true" />
+                <element signature="e#4511#4512#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TiaomanFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TiaomanFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="84" column="55" selection-start-line="84" selection-start-column="55" selection-end-line="84" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XJC/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-              <folding />
+            <state relative-caret-position="191">
+              <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
+              <folding>
+                <element signature="e#5619#5620#0" expanded="true" />
+                <element signature="e#5652#5653#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,26 +98,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpLoggingInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.8.0/9044a042ae60a8b7403a5c7a4c5a4f78f45250bb/logging-interceptor-3.8.0-sources.jar!/okhttp3/logging/HttpLoggingInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TiaomanHomeListBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/TiaomanHomeListBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -3005,7 +2968,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/module/yuedu/YueduFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/shape.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape.xml" />
@@ -3051,11 +3013,12 @@
         <option value="$PROJECT_DIR$/XJC/src/main/res/values/values.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/XJC/src/main/res/anim/recycle_loading_progressbar_anim.xml" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/res/layout/recycle_footer.xml" />
         <option value="$PROJECT_DIR$/XJC/build.gradle" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/fragment_tiaoman.xml" />
       </list>
     </option>
   </component>
@@ -3602,14 +3565,15 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48175967" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48116255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24971688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25254813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25254813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24971688" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12302483" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3623,7 +3587,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="198" y="92" width="1630" height="896" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3696,7 +3659,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="43" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3705,17 +3668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/fragment_tiaoman.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3913,11 +3865,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/kidstone/cartoon/adapter/RefreshFootAdapter.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/kidstone/cartoon/tiaoman/TiaomanFragment.java" />
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/TiaomanHomeListBean.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/recycle_footer.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="57">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -3925,6 +3879,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -3939,16 +3901,16 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.8.0/9044a042ae60a8b7403a5c7a4c5a4f78f45250bb/logging-interceptor-3.8.0-sources.jar!/okhttp3/logging/HttpLoggingInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="19">
           <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/build.gradle">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/TiaomanHomeListBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+        <state relative-caret-position="399">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -3961,29 +3923,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/recycle_footer.xml">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/fragment_tiaoman.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+        <state relative-caret-position="342">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="84" column="55" selection-start-line="84" selection-start-column="55" selection-end-line="84" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="191">
+          <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
+          <folding>
+            <element signature="e#5619#5620#0" expanded="true" />
+            <element signature="e#5652#5653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="e#3260#3261#0" expanded="true" />
+            <element signature="e#3310#3311#0" expanded="true" />
+            <element signature="e#4472#4473#0" expanded="true" />
+            <element signature="e#4511#4512#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
