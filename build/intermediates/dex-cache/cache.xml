@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.8.0\f765f004f3e201bd6ad0904266e605d7fb776d5\logging-interceptor-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0f765f004f3e201bd6ad0904266e605d7fb776d5">
+        <dex dex="D:\code\xjc_git\xjc\XJC\build\intermediates\pre-dexed\debug\logging-interceptor-3.8.0_da846f3f372d79d88ab1c3f4960f74b5b606aa3b.jar" />
+    </item>
+
+</items>

@@ -91,7 +91,7 @@ public class TiaomanFragment extends BaseFragment implements SwipeRefreshLayout.
 
     }
 
-    private void getTiaomanList(int intStart) {
+    private void getTiaomanList(final int intStart) {
 
         Call<TiaomanHomeBean> call = RetrofitAPIManager.provideClientApi()
                 .getTiaomanList(
@@ -110,10 +110,18 @@ public class TiaomanFragment extends BaseFragment implements SwipeRefreshLayout.
                                  tiaomanHomeListModel = response.body().getData();
                                  mTiaomanHomeItems = tiaomanHomeListModel.getData();
                                  if (null != mTiaomanHomeItems && mTiaomanHomeItems.size() != 0) {
-                                     mAdapter.addData(mTiaomanHomeItems);
+                                     if (intStart == 0) {
+                                         mAdapter.addData(mTiaomanHomeItems);
+                                     } else {
+                                         mAdapter.addMoreData(mTiaomanHomeItems);
+                                     }
+                                     try {
+                                         itemStart = Integer.parseInt(response.body().getData().getEnd());
+                                     } catch (NumberFormatException e) {
+                                         itemStart = 0;
+                                         e.printStackTrace();
+                                     }
                                      tiaoman_home_recyclerView.setAdapter(mAdapter);
-
-
                                  }
                                  tiaoman_home_swipeRefreshLayout.setRefreshing(false);
                              }
@@ -130,7 +138,7 @@ public class TiaomanFragment extends BaseFragment implements SwipeRefreshLayout.
 
     @Override
     public void onRefresh() {
-        getTiaomanList(itemStart);
+        getTiaomanList(0);
     }
 
 }
