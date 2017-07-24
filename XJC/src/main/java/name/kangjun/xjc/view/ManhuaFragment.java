@@ -101,6 +101,10 @@ public class ManhuaFragment extends BaseFragment {
                 Log.d("tag", t.getMessage());
             }
         });
+
+        call<YizhourenqiBean> yizhourenqiCall = RetrofitAPIManager.provideClientApi().getManhuaYizhourenqi(
+                RetrofitClient.
+        )
     }
 
     private void initHorizontalScrollview() {

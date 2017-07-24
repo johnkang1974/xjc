@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yizhourenqi_area"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/yizhourenqi_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/week_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/more_button"
+            tools:ignore="HardcodedText"
+            android:layout_width="40dp"
+            android:layout_height="18dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/more_button_shape"
+            android:gravity="center"
+            android:text="更多"
+            android:textColor="@color/whiteColor"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/yizhourenqi_content"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
