@@ -19,7 +19,6 @@ import name.kangjun.xjc.model.TiaomanHomeItemBean;
 
 
 /**
- *
  * Created by Kangjun on 2017/7/11.
  */
 
@@ -63,9 +62,7 @@ public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         if (viewType == TYPE_ITEM) {
             View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.tiaoman_home_item, parent, false);
             return new ItemViewHolder(view);
-        }
-        //装上拉加载的item
-        else if (viewType == TYPE_FOOTER) {
+        } else if (viewType == TYPE_FOOTER) {  //装上拉加载的item
             View footView = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycle_footer, parent, false);
             return new FootViewHolder(footView);
         }
@@ -76,21 +73,23 @@ public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, int position) {
         //条漫的item
         if (holder instanceof ItemViewHolder) {
-            final TiaomanHomeItemBean item = mTiaomanHomeItem.get(position);
-            ((ItemViewHolder) holder).labelOfName.setText(item.getTitle());
-            ((ItemViewHolder) holder).labelOfType.setText(item.getClass_label().getClass_name());
-            ((ItemViewHolder) holder).labelOfAuthor.setText(item.getAuthor());
-            ((ItemViewHolder) holder).imageOfChapter.setImageURI(Uri.parse(strCDN + item.getThumb_rank()));
-            ((ItemViewHolder) holder).labelOfChapterName.setText(item.getUpdate_chapter_name());
-            ((ItemViewHolder) holder).labelOfCommentNumber.setText(item.getComment_num());
-        }
-        //上拉加载的item
-        else if (holder instanceof FootViewHolder) {
+            TiaomanHomeItemBean item = mTiaomanHomeItem.get(position);
+             /* 强制类型转换，能少用就少用，能不用就不用 */
+            ItemViewHolder itemViewHolder = (ItemViewHolder) holder;
+            itemViewHolder.labelOfName.setText(item.getTitle());
+            itemViewHolder.labelOfType.setText(item.getClass_label().getClass_name());
+            itemViewHolder.labelOfAuthor.setText(item.getAuthor());
+            itemViewHolder.imageOfChapter.setImageURI(Uri.parse(strCDN + item.getThumb_rank()));
+            itemViewHolder.labelOfChapterName.setText(item.getUpdate_chapter_name());
+            itemViewHolder.labelOfCommentNumber.setText(item.getComment_num());
+        } else if (holder instanceof FootViewHolder) { //上拉加载的item
+            /* 同上 */
+            FootViewHolder footViewHolder = (FootViewHolder) holder;
             if (hasMore) {
-                ((FootViewHolder) holder).footerTextview.setText("正在加载，请稍等……");
+                footViewHolder.footerTextview.setText("正在加载，请稍等……");
             } else {
-                ((FootViewHolder) holder).footerTextview.setText("没有更多的内容……");
-                ((FootViewHolder) holder).footerProgressbar.setVisibility(View.GONE);
+                footViewHolder.footerTextview.setText("没有更多的内容……");
+                footViewHolder.footerProgressbar.setVisibility(View.GONE);
             }
         }
     }
@@ -100,9 +99,6 @@ public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         return mTiaomanHomeItem.size() + 1;
     }
 
-    /**
-     *
-     */
     private class ItemViewHolder extends RecyclerView.ViewHolder {
 
         private final TextView labelOfType;
