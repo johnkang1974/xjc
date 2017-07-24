@@ -16,25 +16,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
             android:orientation="horizontal">
 
-            <com.danxx.tabstrip.FlymeTabStrip
+            <net.lucode.hackware.magicindicator.MagicIndicator
                 android:id="@+id/sliding_tabs_fragmentyuedu"
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:layout_weight="9"
-                custom:indicatorColor="@color/colorAccent"
-                custom:indicatorHeight="3dp"
-                custom:indicatorMargin="20dp"
-                custom:indicatorTextColor="@android:color/darker_gray"
-                custom:indicatorTextSize="18sp"
-                custom:selectedIndicatorTextSize="18sp" />
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="9" />
 
             <ImageButton
+
                 android:id="@+id/search_imagebutton_fragmentyuedu"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:contentDescription="Search Button"

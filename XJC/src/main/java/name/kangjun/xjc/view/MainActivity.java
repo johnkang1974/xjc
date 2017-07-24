@@ -1,6 +1,7 @@
 package name.kangjun.xjc.view;
 
 import android.os.Bundle;
+import android.support.annotation.ColorRes;
 import android.support.annotation.IdRes;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -30,6 +31,7 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
 
         setPageName("MainActivity");
         mTabbarActivityMain.setOnCheckedChangeListener(this);
+        MainActivity.setWindowStatusBarColor(this,android.R.color.holo_orange_dark);
         fm = getSupportFragmentManager();
         ft = fm.beginTransaction();
         yueduFragment = new YueduFragment();

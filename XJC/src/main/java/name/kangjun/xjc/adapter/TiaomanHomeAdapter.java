@@ -19,16 +19,16 @@ import name.kangjun.xjc.model.TiaomanHomeItemBean;
 
 
 /**
+ *
  * Created by Kangjun on 2017/7/11.
  */
 
-//public class TiaomanHomeAdapter extends RecyclerView.Adapter<TiaomanHomeAdapter.ItemViewHolder> {
 public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
-    private Context mContext;
     private List<TiaomanHomeItemBean> mTiaomanHomeItem;
     private static String strCDN;
     private static final int TYPE_ITEM = 0;  //普通Item View
     private static final int TYPE_FOOTER = 1;  //顶部FootView
+    private boolean hasMore = true;
 
 
     public static void setStrCDN(String strCDN) {
@@ -36,7 +36,7 @@ public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     }
 
     public TiaomanHomeAdapter(Context context) {
-        mContext = context;
+        Context mContext = context;
         mTiaomanHomeItem = new ArrayList<>();
 
     }
@@ -53,23 +53,21 @@ public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     }
 
     /**
-     * @param parent
-     * @param viewType
-     * @return
+     * @param parent:
+     * @param viewType:条漫item or 上拉加载的item
+     * @return ItemViewHolder or FootViewHolder
      */
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         //装普通的条漫item
         if (viewType == TYPE_ITEM) {
             View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.tiaoman_home_item, parent, false);
-            ItemViewHolder itemViewHolder = new ItemViewHolder(view);
-            return itemViewHolder;
+            return new ItemViewHolder(view);
         }
         //装上拉加载的item
         else if (viewType == TYPE_FOOTER) {
             View footView = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycle_footer, parent, false);
-            FootViewHolder footViewHolder = new FootViewHolder(footView);
-            return footViewHolder;
+            return new FootViewHolder(footView);
         }
         return null;
     }
@@ -88,7 +86,12 @@ public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         }
         //上拉加载的item
         else if (holder instanceof FootViewHolder) {
-            //没有什么可以刷新的
+            if (hasMore) {
+                ((FootViewHolder) holder).footerTextview.setText("正在加载，请稍等……");
+            } else {
+                ((FootViewHolder) holder).footerTextview.setText("没有更多的内容……");
+                ((FootViewHolder) holder).footerProgressbar.setVisibility(View.GONE);
+            }
         }
     }
 
@@ -100,7 +103,7 @@ public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     /**
      *
      */
-    public class ItemViewHolder extends RecyclerView.ViewHolder {
+    private class ItemViewHolder extends RecyclerView.ViewHolder {
 
         private final TextView labelOfType;
         private TextView labelOfName;
@@ -121,15 +124,16 @@ public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         }
     }
 
-    public class FootViewHolder extends RecyclerView.ViewHolder {
+    private class FootViewHolder extends RecyclerView.ViewHolder {
         //以后根据上拉还是下拉在分别设置textview的文字
-        private ProgressBar footerReflash;
+        private ProgressBar footerProgressbar;
+        private TextView footerTextview;
 
-        public FootViewHolder(View itemView) {
+        private FootViewHolder(View itemView) {
             super(itemView);
+            footerProgressbar = (ProgressBar) itemView.findViewById(R.id.footer_progressbar);
+            footerTextview = (TextView) itemView.findViewById(R.id.footer_textview);
         }
-
-
     }
 
     @Override
@@ -139,5 +143,10 @@ public class TiaomanHomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         } else {
             return TYPE_ITEM;
         }
+    }
+
+    public void showFootRefresh(boolean status) {
+        hasMore = status;
+        notifyDataSetChanged();
     }
 }

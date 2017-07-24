@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.security.PrivateKey;
 import java.util.List;
 
 import butterknife.BindView;
@@ -34,6 +35,8 @@ import retrofit2.Response;
  */
 public class TiaomanFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
     private final static String TAG = "TiaomanFragment";
+    private final static int LOADING = 0;
+    private final static int NOMORE = 1;
     private int lastVisibleItem;
 
     @BindView(R.id.tiaoman_home_recyclerView)
@@ -88,7 +91,7 @@ public class TiaomanFragment extends BaseFragment implements SwipeRefreshLayout.
         });
 
         tiaoman_home_swipeRefreshLayout.setOnRefreshListener(this);
-
+        tiaoman_home_recyclerView.setAdapter(mAdapter);
     }
 
     private void getTiaomanList(final int intStart) {
@@ -103,27 +106,34 @@ public class TiaomanFragment extends BaseFragment implements SwipeRefreshLayout.
                         intStart);
         call.enqueue(new Callback<TiaomanHomeBean>() {
                          @Override
+                         //从网上拿条漫列表数据
                          public void onResponse(Call<TiaomanHomeBean> call, Response<TiaomanHomeBean> response) {
                              if (0 == response.body().getCode()) {
                                  String strCDN = response.body().getData().getCdn();
                                  TiaomanHomeAdapter.setStrCDN(strCDN);
-                                 tiaomanHomeListModel = response.body().getData();
-                                 mTiaomanHomeItems = tiaomanHomeListModel.getData();
-                                 if (null != mTiaomanHomeItems && mTiaomanHomeItems.size() != 0) {
-                                     if (intStart == 0) {
-                                         mAdapter.addData(mTiaomanHomeItems);
-                                     } else {
-                                         mAdapter.addMoreData(mTiaomanHomeItems);
+                                 if (!(response.body().getData().getEnd()).equals("0")) {    //表示没有后续的
+                                     tiaomanHomeListModel = response.body().getData();
+                                     mTiaomanHomeItems = tiaomanHomeListModel.getData();
+                                     if (null != mTiaomanHomeItems && mTiaomanHomeItems.size() != 0) {
+                                         if (intStart == 0) {       //第一次拿
+                                             mAdapter.addData(mTiaomanHomeItems);
+                                         } else {                   //不是第一次拿
+                                             mAdapter.addMoreData(mTiaomanHomeItems);
+                                             //footRefresh显示加载ing
+                                             mAdapter.showFootRefresh(true);
+                                         }
+                                         try {
+                                             itemStart = Integer.parseInt(response.body().getData().getEnd());
+                                         } catch (NumberFormatException e) {
+                                             itemStart = 0;
+                                             e.printStackTrace();
+                                         }
                                      }
-                                     try {
-                                         itemStart = Integer.parseInt(response.body().getData().getEnd());
-                                     } catch (NumberFormatException e) {
-                                         itemStart = 0;
-                                         e.printStackTrace();
-                                     }
-                                     tiaoman_home_recyclerView.setAdapter(mAdapter);
+                                     tiaoman_home_swipeRefreshLayout.setRefreshing(false);
+                                 } else {
+                                     //footRefresh显示没有更多
+                                     mAdapter.showFootRefresh(false);
                                  }
-                                 tiaoman_home_swipeRefreshLayout.setRefreshing(false);
                              }
                          }
 
@@ -132,13 +142,12 @@ public class TiaomanFragment extends BaseFragment implements SwipeRefreshLayout.
                              Log.d("tag", t.getMessage());
                          }
                      }
-
         );
     }
 
     @Override
     public void onRefresh() {
-        getTiaomanList(0);
+        getTiaomanList(0);      //下拉刷新从第一页开始拿数据
     }
 
 }
