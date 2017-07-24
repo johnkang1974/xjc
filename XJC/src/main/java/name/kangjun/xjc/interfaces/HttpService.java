@@ -7,7 +7,6 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 /**
- *
  * Created by Kangjun on 2017/7/10.
  */
 
@@ -36,4 +35,19 @@ public interface HttpService {
                                            @Query("ui_id") int ui_id,
                                            @Query("userid") int userID,
                                            @Query("type") int type);
+
+    /***
+     * 漫画首页一周人气
+     * http://dajiaochong.517w.com/dacu_app/app/?c=MainRank&a=get_label_rank&ui=0&ui_id=0&label=0&get_type=0&start=0&home=1&userid=0
+     */
+    @GET("app/")
+    Call<ManhuaBannerBean> getManhuaYizhourenqi(@Query("c") String paramC,
+                                                @Query("a") String paramA,
+                                                @Query("ui") int ui,
+                                                @Query("ui_id") int ui_id,
+                                                @Query("label") int label,
+                                                @Query("get_type") int type,
+                                                @Query("start") int start,
+                                                @Query("home") int home,
+                                                @Query("userid") int userID);
 }
