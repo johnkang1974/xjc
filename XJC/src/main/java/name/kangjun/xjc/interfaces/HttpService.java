@@ -2,6 +2,7 @@ package name.kangjun.xjc.interfaces;
 
 import name.kangjun.xjc.model.ManhuaBannerBean;
 import name.kangjun.xjc.model.TiaomanHomeBean;
+import name.kangjun.xjc.model.YizhourenqiBean;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
@@ -41,13 +42,13 @@ public interface HttpService {
      * http://dajiaochong.517w.com/dacu_app/app/?c=MainRank&a=get_label_rank&ui=0&ui_id=0&label=0&get_type=0&start=0&home=1&userid=0
      */
     @GET("app/")
-    Call<ManhuaBannerBean> getManhuaYizhourenqi(@Query("c") String paramC,
-                                                @Query("a") String paramA,
-                                                @Query("ui") int ui,
-                                                @Query("ui_id") int ui_id,
-                                                @Query("label") int label,
-                                                @Query("get_type") int type,
-                                                @Query("start") int start,
-                                                @Query("home") int home,
-                                                @Query("userid") int userID);
+    Call<YizhourenqiBean> getManhuaYizhourenqi(@Query("c") String paramC,
+                                               @Query("a") String paramA,
+                                               @Query("ui") int ui,
+                                               @Query("ui_id") int ui_id,
+                                               @Query("label") int label,
+                                               @Query("get_type") int type,
+                                               @Query("start") int start,
+                                               @Query("home") int home,
+                                               @Query("userid") int userID);
 }

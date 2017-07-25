@@ -88,6 +88,7 @@ public class YueduFragment extends BaseFragment {
         PagerAdapter adapter = new myFragmentPagerAdapter(getChildFragmentManager());
         viewPager.setAdapter(adapter);
         viewPager.setOffscreenPageLimit(NUMBER_TITLES);
+
         CommonNavigator commonNavigator = new CommonNavigator(mContext);
         commonNavigator.setAdapter(new CommonNavigatorAdapter() {
             @Override
@@ -122,6 +123,7 @@ public class YueduFragment extends BaseFragment {
         });
         menuTabStrip.setNavigator(commonNavigator);
         ViewPagerHelper.bind(menuTabStrip, viewPager);
+        viewPager.setCurrentItem(1);            //设置为启动就显示漫画的viewpager
         searchImgBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

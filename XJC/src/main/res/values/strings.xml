@@ -13,7 +13,7 @@
     <string name="tab_recommend">推 荐</string>
     <string name="tab_rank">排 行</string>
     <string name="tab_category">分 类</string>
-    <string name="ed_title">精品推荐Y(^o^)Y</string>
+    <string name="ed_title">精挑细选Y(^o^)Y</string>
     <string name="week_title">这本漫画真厉害！一周人气(*^__^*)</string>
     <string name="newbook_title">新作推荐(╭￣3￣)╭</string>
     <string name="lt_title">最近更新</string>
@@ -36,9 +36,6 @@
     <string name="need_more">查看更多</string>
     <string name="change_another">换一批</string>
     <string name="copyright">Copyright© Kidstone All Rights Reserved</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
