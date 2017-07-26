@@ -44,10 +44,10 @@ public class RetrofitAPIManager {
                     public Response intercept(Chain chain) throws IOException {
                         Request request = chain.request()
                                 .newBuilder()
-                                .addHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
+                                .addHeader("Content-Type", "application/json; charset=UTF-8")
                                 .addHeader("Connection", "keep-alive")
                                 .addHeader("Accept", "*/*")
-                                .addHeader("Cookie", "add cookies here")
+//                                .addHeader("Cookie", "add cookies here")
                                 .addHeader("User-Agent", xjcApplication.strUserAgent)
                                 .build();
                         return chain.proceed(request);

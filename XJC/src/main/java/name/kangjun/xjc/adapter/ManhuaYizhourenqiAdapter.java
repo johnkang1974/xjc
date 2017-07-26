@@ -19,7 +19,7 @@ import name.kangjun.xjc.model.YizhourenqiItemBean;
  */
 
 public class ManhuaYizhourenqiAdapter extends RecyclerView.Adapter<ManhuaYizhourenqiAdapter.ViewHolder> {
-    public List<YizhourenqiItemBean> items;
+    private List<YizhourenqiItemBean> items;
 
     public ManhuaYizhourenqiAdapter(List<YizhourenqiItemBean> items) {
         this.items = items;
@@ -44,11 +44,11 @@ public class ManhuaYizhourenqiAdapter extends RecyclerView.Adapter<ManhuaYizhour
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        public SimpleDraweeView manhuaCover;
-        public TextView manhuaName;
-        public TextView manhuaAuthor;
+        private SimpleDraweeView manhuaCover;
+        private TextView manhuaName;
+        private TextView manhuaAuthor;
 
-        public ViewHolder(View itemView) {
+        private ViewHolder(View itemView) {
             super(itemView);
             manhuaCover = (SimpleDraweeView) itemView.findViewById(R.id.manhua_cover);
             manhuaName = (TextView) itemView.findViewById(R.id.manhua_name);

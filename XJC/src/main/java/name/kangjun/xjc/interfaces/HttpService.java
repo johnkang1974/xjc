@@ -1,5 +1,6 @@
 package name.kangjun.xjc.interfaces;
 
+import name.kangjun.xjc.model.JingtiaoxixuanBean;
 import name.kangjun.xjc.model.ManhuaBannerBean;
 import name.kangjun.xjc.model.TiaomanHomeBean;
 import name.kangjun.xjc.model.YizhourenqiBean;
@@ -51,4 +52,17 @@ public interface HttpService {
                                                @Query("start") int start,
                                                @Query("home") int home,
                                                @Query("userid") int userID);
+
+    /***
+     * 漫画首页精挑细选
+     * http://dajiaochong.517w.com/dacu_app/app/?c=MainRecommend&a=get_main_recommend&ui=0&ui_id=0&userid=0&type=1&start=0
+     */
+    @GET("app/")
+    Call<JingtiaoxixuanBean>getJingtiaoxixuan(@Query("c") String paramC,
+                                              @Query("a") String paramA,
+                                              @Query("ui") int ui,
+                                              @Query("ui_id") int ui_id,
+                                              @Query("type") int type,
+                                              @Query("start") int start,
+                                              @Query("userid") int userID);
 }

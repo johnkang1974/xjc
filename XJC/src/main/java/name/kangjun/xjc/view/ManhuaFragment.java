@@ -2,7 +2,6 @@ package name.kangjun.xjc.view;
 
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -13,8 +12,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 
 import com.recker.flybanner.FlyBanner;
 
@@ -24,10 +21,13 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import name.kangjun.xjc.R;
+import name.kangjun.xjc.adapter.ManhuaJingtiaoxixuanAdapter;
 import name.kangjun.xjc.adapter.ManhuaYizhourenqiAdapter;
 import name.kangjun.xjc.base.BaseFragment;
 import name.kangjun.xjc.httpUtils.RetrofitAPIManager;
 import name.kangjun.xjc.httpUtils.RetrofitClient;
+import name.kangjun.xjc.model.JingtiaoxixuanBean;
+import name.kangjun.xjc.model.JingtiaoxixuanItemBean;
 import name.kangjun.xjc.model.ManhuaBannerBean;
 import name.kangjun.xjc.model.YizhourenqiBean;
 import name.kangjun.xjc.model.YizhourenqiItemBean;
@@ -44,6 +44,7 @@ public class ManhuaFragment extends BaseFragment {
     private LinearLayoutManager mYizhourenqiLLM;
     private ManhuaYizhourenqiAdapter mYizhourenqiAdpater;
     private GridLayoutManager mJingtiaoxixuanGLM;
+    private ManhuaJingtiaoxixuanAdapter mManhuaJingtiaoxixuanAdapter;
 
     @BindView(R.id.banner_manhua)
     FlyBanner flyBanner;
@@ -73,9 +74,10 @@ public class ManhuaFragment extends BaseFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = super.onCreateView(inflater, container, savedInstanceState);
-        getManhuaBanner();
-        getYizhourenqiSection();
         ButterKnife.bind(this, view);
+        getManhuaBanner();      //轮播图
+        getYizhourenqiSection();        //一周人气
+        getJingtiaoxixuanSection();     //精挑细选
         return view;
     }
 
@@ -141,21 +143,55 @@ public class ManhuaFragment extends BaseFragment {
             @Override
             public void onResponse(Call<YizhourenqiBean> call, Response<YizhourenqiBean> response) {
                 try {
-                    if (0 == response.body().getCode()){
+                    if (0 == response.body().getCode()) {
                         List<YizhourenqiItemBean> yizhourenqiItems = response.body().getData().getData();
                         mYizhourenqiLLM = new LinearLayoutManager(mContext);
                         mYizhourenqiLLM.setOrientation(LinearLayoutManager.HORIZONTAL);
                         mYizhourenqi_recycler.setLayoutManager(mYizhourenqiLLM);
                         mYizhourenqi_recycler.setHasFixedSize(true);
-                        mYizhourenqiAdpater =new ManhuaYizhourenqiAdapter(yizhourenqiItems);
+                        mYizhourenqiAdpater = new ManhuaYizhourenqiAdapter(yizhourenqiItems);
                         mYizhourenqi_recycler.setAdapter(mYizhourenqiAdpater);
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
+
             @Override
             public void onFailure(Call<YizhourenqiBean> call, Throwable t) {
+
+            }
+        });
+    }
+
+    /***
+     * 精挑细选
+     */
+    private void getJingtiaoxixuanSection() {
+        Call<JingtiaoxixuanBean> jingtiaoxixuanCall = RetrofitAPIManager.provideClientApi().getJingtiaoxixuan(
+          "MainRecommend"  ,
+                "get_main_recommend",
+                RetrofitClient.UI,
+                RetrofitClient.UI_ID,
+                1,
+                0,
+                xjcApplication.userID);
+        jingtiaoxixuanCall.enqueue(new Callback<JingtiaoxixuanBean>() {
+            @Override
+            public void onResponse(Call<JingtiaoxixuanBean> call, Response<JingtiaoxixuanBean> response) {
+                if (0 == response.body().getCode()) {
+                    List<JingtiaoxixuanItemBean> jingtiaoxixuanItems = response.body().getData().getData();
+                    mJingtiaoxixuanGLM =new GridLayoutManager(mContext,2);
+                    mJingtiaoxixuanGLM.setOrientation(LinearLayoutManager.VERTICAL);
+                    mJingtiaoxixuan_recycler.setLayoutManager(mJingtiaoxixuanGLM);
+                    mJingtiaoxixuan_recycler.setHasFixedSize(true);
+                    mManhuaJingtiaoxixuanAdapter = new ManhuaJingtiaoxixuanAdapter(jingtiaoxixuanItems);
+                    mJingtiaoxixuan_recycler.setAdapter(mManhuaJingtiaoxixuanAdapter);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<JingtiaoxixuanBean> call, Throwable t) {
 
             }
         });
