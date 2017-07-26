@@ -16,29 +16,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1e27d3-1331-4796-9b83-59a4c31d7bae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanItemBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanListBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/ic_launcher-web.png" afterPath="$PROJECT_DIR$/XJC/src/main/ic_launcher-web.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/XJC/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/XJC/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/XJC/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/XJC/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/XJC/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaYizhourenqiAdapter.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaYizhourenqiAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_section.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_section.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_item.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java" />
     </list>
     <ignored path="Xjc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +58,7 @@
       <file leaf-file-name="ManhuaFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
+            <state relative-caret-position="15">
               <caret line="160" column="49" selection-start-line="160" selection-start-column="49" selection-end-line="160" selection-end-column="49" />
               <folding>
                 <element signature="e#3614#3980#0" expanded="true" />
@@ -86,17 +69,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManhuaYizhourenqiAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaYizhourenqiAdapter.java">
+      <file leaf-file-name="ManhuaJingtiaoxixuanAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-              <folding>
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#1264#1265#0" expanded="true" />
-                <element signature="e#1299#1300#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="471">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,45 +92,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jingtiaoxixuan_item.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_item.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tiaoman_home_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/tiaoman_home_item.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yizhourenqi_section.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_section.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fragment_manhua.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/fragment_manhua.xml">
           <provider editor-type-id="android-designer2">
@@ -161,16 +100,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
               <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="57" column="85" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -3099,10 +3028,10 @@
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/YizhourenqiBean.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaYizhourenqiAdapter.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_section.xml" />
         <option value="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_item.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java" />
       </list>
     </option>
   </component>
@@ -4230,35 +4159,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="160" column="49" selection-start-line="160" selection-start-column="49" selection-end-line="160" selection-end-column="49" />
-          <folding>
-            <element signature="e#3614#3980#0" expanded="true" />
-            <element signature="e#3979#3980#0" expanded="true" />
-            <element signature="method#onFailure#0;class#4767:5853" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
-          <folding>
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="57" column="85" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="85" />
+        <state relative-caret-position="323">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -4276,13 +4183,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_section.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        <state relative-caret-position="547">
+          <caret line="57" column="85" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="85" />
           <folding />
         </state>
       </provider>
@@ -4298,13 +4202,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_section.xml">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_section.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="608">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -4320,13 +4224,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_item.xml">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_section.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="648">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="160" column="49" selection-start-line="160" selection-start-column="49" selection-end-line="160" selection-end-column="49" />
+          <folding>
+            <element signature="e#3614#3980#0" expanded="true" />
+            <element signature="e#3979#3980#0" expanded="true" />
+            <element signature="method#onFailure#0;class#4767:5853" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding />
         </state>
       </provider>

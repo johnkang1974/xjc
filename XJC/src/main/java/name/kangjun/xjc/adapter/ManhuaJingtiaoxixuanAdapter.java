@@ -33,7 +33,7 @@ public class ManhuaJingtiaoxixuanAdapter extends RecyclerView.Adapter<ManhuaJing
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.manhuaCover.setImageURI(items.get(position).getThumb());
+        holder.manhuaCover.setImageURI(items.get(position).getThumb_1());
         holder.manhuaName.setText(items.get(position).getTitle());
         holder.manhuaAuthor.setText(items.get(position).getTitle());
     }
