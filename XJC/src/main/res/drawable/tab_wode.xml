@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@mipmap/tab_mine_checked" android:state_checked="true"></item>
-    <item android:drawable="@mipmap/tab_mine_checked" android:state_pressed="true"></item>
-    <item android:drawable="@mipmap/tab_mine_normal"></item>
+    <item android:drawable="@drawable/ic_wode_checked_24dp" android:state_checked="true"/>
+    <item android:drawable="@drawable/ic_wode_checked_24dp" android:state_pressed="true"/>
+    <item android:drawable="@drawable/ic_wode_uncheck_24dp"/>
 </selector>

@@ -2,6 +2,7 @@ package name.kangjun.xjc.view;
 
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -107,10 +108,10 @@ public class TiaomanFragment extends BaseFragment implements SwipeRefreshLayout.
         call.enqueue(new Callback<TiaomanHomeBean>() {
                          @Override
                          //从网上拿条漫列表数据
-                         public void onResponse(Call<TiaomanHomeBean> call, Response<TiaomanHomeBean> response) {
-                             if (0 == response.body().getCode()) {
-                                 String strCDN = response.body().getData().getCdn();
-                                 TiaomanHomeAdapter.setStrCDN(strCDN);
+                         public void onResponse(@NonNull Call<TiaomanHomeBean> call, @NonNull Response<TiaomanHomeBean> response) {
+                             String strCDN = response.body().getData().getCdn();
+                             TiaomanHomeAdapter.setStrCDN(strCDN);
+                             if (null != response.body().getData()) {
                                  if (!(response.body().getData().getEnd()).equals("0")) {    //表示没有后续的
                                      tiaomanHomeListModel = response.body().getData();
                                      mTiaomanHomeItems = tiaomanHomeListModel.getData();
@@ -135,11 +136,11 @@ public class TiaomanFragment extends BaseFragment implements SwipeRefreshLayout.
                                      mAdapter.showFootRefresh(false);
                                  }
                              }
+
                          }
 
                          @Override
                          public void onFailure(Call<TiaomanHomeBean> call, Throwable t) {
-                             Log.d("tag", t.getMessage());
                          }
                      }
         );

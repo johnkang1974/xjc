@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="E:\Android_sdk_home\.android\build-cache\e5cf56dd60b85b31653e637a0484181a08db0246\output\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="cc9c68aa8e850407de6231285bfd776aad227517">
-        <dex dex="D:\code\xjc_git\xjc\XJC\build\intermediates\pre-dexed\debug\classes_1fb3875d8101d7bce437990c6576fdd1830411f3.jar" />
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="D:\code\xjc_git\xjc\XJC\build\intermediates\pre-dexed\debug\jsr305-2.0.1_69d0b6c8ffa05193b3c0ebfa1d1d218ee290f911.jar" />
     </item>
 
 </items>

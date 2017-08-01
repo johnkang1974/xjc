@@ -24,7 +24,7 @@ public class RetrofitAPIManager {
     private static final String SERVER_URL = RetrofitClient.BASEURL + RetrofitClient.DACU_APP;
 
     public static HttpService provideClientApi() {
-        Gson gson = new GsonBuilder().setLenient().create();
+        Gson gson = new GsonBuilder().setLenient().serializeNulls().create();
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(SERVER_URL)
                 .addConverterFactory(GsonConverterFactory.create(gson))
@@ -47,7 +47,6 @@ public class RetrofitAPIManager {
                                 .addHeader("Content-Type", "application/json; charset=UTF-8")
                                 .addHeader("Connection", "keep-alive")
                                 .addHeader("Accept", "*/*")
-//                                .addHeader("Cookie", "add cookies here")
                                 .addHeader("User-Agent", xjcApplication.strUserAgent)
                                 .build();
                         return chain.proceed(request);

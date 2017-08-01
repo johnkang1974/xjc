@@ -6,14 +6,14 @@
     <RadioGroup
         android:id="@+id/rg_tabbar_tabbarlayout"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="45dp"
         android:layout_gravity="bottom"
         android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/rbtn_manhua_tabbarlayout"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:button="@null"
@@ -30,7 +30,7 @@
         <RadioButton
             android:id="@+id/rbtn_collect_tabbarlayout"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:button="@null"
@@ -46,12 +46,12 @@
         <RadioButton
             android:id="@+id/rbtn_square_tabbarlayout"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:button="@null"
             android:checked="false"
-            android:drawableTop="@drawable/tab_guangchang"
+            android:drawableTop="@drawable/tab_quanzi"
             android:gravity="bottom|center_horizontal"
             android:paddingBottom="2dp"
             android:paddingTop="2dp"
@@ -62,7 +62,7 @@
         <RadioButton
             android:id="@+id/rbtn_mine_tabbarlayout"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:button="@null"

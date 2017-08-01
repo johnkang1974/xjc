@@ -12,16 +12,118 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1e27d3-1331-4796-9b83-59a4c31d7bae" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_section.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-13-19-04-766.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-15-55-24-498.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-15-56-54-370.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-15-58-21-169.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-16-06-03-653.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-16-47-03-683.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-16-54-15-275.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-17-07-14-247.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-17-15-59-951.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-17-16-05-759.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-17-19-18-286.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-18-49-49-011.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-19-19-58-741.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-19-27-03-107.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-19-29-20-815.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-19-32-29-095.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-19-34-08-341.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-19-35-07-600.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-19-37-18-850.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-19-40-10-905.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-19-41-32-496.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-16-35-130.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-34-59-353.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-35-45-901.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-42-09-452.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-44-47-294.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-49-10-377.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-50-23-104.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-53-24-848.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-54-01-604.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-55-22-712.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-56-05-944.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-20-59-53-763.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-01-10-292.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-02-41-949.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-04-51-030.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-05-19-896.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-06-13-720.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-08-11-521.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-09-39-336.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-11-38-337.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-13-49-849.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-14-31-622.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-15-21-785.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-17-35-915.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-19-22-526.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-20-02-533.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-21-57-828.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-22-52-821.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-23-29-944.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-24-46-564.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-25-45-473.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-26-39-609.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-34-58-860.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-45-10-452.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-47-00-555.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-52-43-373.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-57-33-647.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-21-21-59-13-127.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-24-18-41-16-687.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-24-18-41-31-344.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-24-19-35-37-742.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-24-19-53-53-742.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-24-19-54-40-119.rawproto" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/XJC.iml" afterPath="$PROJECT_DIR$/XJC/XJC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/build.gradle" afterPath="$PROJECT_DIR$/XJC/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ZhuantiZhuanquBean.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ZhuantiZhuanquBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ZhuantiZhuanquItemBean.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ZhuantiZhuanquItemBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_manhua_checked_24dp.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_manhua_checked_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_manhua_uncheck_24dp.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_manhua_uncheck_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_quanzi_checked_24dp.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_quanzi_checked_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_quanzi_uncheck_24dp.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_quanzi_uncheck_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_search_24dp.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_search_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_shoucang_checked_24dp.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_shoucang_checked_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_shoucang_uncheck_24dp.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_shoucang_uncheck_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_textsms_gray_24dp.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_textsms_gray_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_wode_checked_24dp.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_wode_checked_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_wode_uncheck_24dp.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_wode_uncheck_24dp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_manhua.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_manhua.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_quanzi.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_quanzi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_rg_txt_selector.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_rg_txt_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_shoucang.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_shoucang.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_wode.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_wode.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/fragment_manhua.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/fragment_manhua.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/fragment_yuedu.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/fragment_yuedu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_item.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/tabbar_layout.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/tabbar_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/tiaoman_home_item.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/tiaoman_home_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_item.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_section.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_section.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/zhuanti_area1_manhua.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/zhuanti_area1_manhua.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XJC/src/main/res/layout/zhuanti_area2_manhua.xml" afterPath="$PROJECT_DIR$/XJC/src/main/res/layout/zhuanti_area2_manhua.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanBean.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaHomeCommonBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanItemBean.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaHomeCommonItemBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanListBean.java" afterPath="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaHomeCommonListBean.java" />
     </list>
     <ignored path="Xjc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,51 +157,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ManhuaFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ManhuaFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="160" column="49" selection-start-line="160" selection-start-column="49" selection-end-line="160" selection-end-column="49" />
-              <folding>
-                <element signature="e#3614#3980#0" expanded="true" />
-                <element signature="e#3979#3980#0" expanded="true" />
-                <element signature="method#onFailure#0;class#4767:5853" expanded="false" />
-              </folding>
+            <state relative-caret-position="589">
+              <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManhuaJingtiaoxixuanAdapter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/base/BaseFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManhuaJingtiaoxixuanAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jingtiaoxixuan_section.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_section.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_manhua.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/fragment_manhua.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="323">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -221,11 +313,6 @@
                 <option name="name" value="prepareComAndroidSupportAppcompatV72531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fresco:1.3.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoFresco130Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from root project 'xjc' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
@@ -233,6 +320,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:imagepipeline:1.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookFrescoImagepipeline140Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Initializes a new Gradle build. [incubating]" />
@@ -257,6 +349,11 @@
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:imagepipeline-base:1.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookFrescoImagepipelineBase140Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in root project 'xjc'." />
@@ -314,11 +411,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:drawee:1.3.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoDrawee130Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -386,11 +478,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preDebugAndroidTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fbcore:1.3.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoFbcore130Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -607,6 +694,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugAndroidTestResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:fbcore:1.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookFrescoFbcore140Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -839,6 +931,11 @@
                 <option name="name" value="prepareComGithubHackware1993MagicIndicator150Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:fresco:1.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookFrescoFresco140Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugRenderscript" />
               </ExternalTaskPojo>
@@ -868,16 +965,6 @@
                 <option name="description" value="Runs lint on just the fatal issues in the release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lintVitalRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline-base:1.3.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoImagepipelineBase130Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline:1.3.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoImagepipeline130Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Debug build." />
@@ -928,6 +1015,11 @@
                 <option name="description" value="Assembles all Release builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:drawee:1.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookFrescoDrawee140Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support.test.espresso:espresso-core:2.2.2" />
@@ -1020,11 +1112,6 @@
                 <option name="name" value="prepareComAndroidSupportAppcompatV72531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fresco:1.3.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
-                <option name="name" value="prepareComFacebookFrescoFresco130Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from project ':XJC'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
                 <option name="name" value="tasks" />
@@ -1032,6 +1119,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
                 <option name="name" value="compileDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:imagepipeline:1.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
+                <option name="name" value="prepareComFacebookFrescoImagepipeline140Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
@@ -1051,6 +1143,11 @@
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
                 <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:imagepipeline-base:1.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
+                <option name="name" value="prepareComFacebookFrescoImagepipelineBase140Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in project ':XJC'." />
@@ -1108,11 +1205,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
                 <option name="name" value="compileDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:drawee:1.3.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
-                <option name="name" value="prepareComFacebookFrescoDrawee130Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
@@ -1180,11 +1272,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
                 <option name="name" value="preDebugAndroidTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fbcore:1.3.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
-                <option name="name" value="prepareComFacebookFrescoFbcore130Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
@@ -1386,6 +1473,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
                 <option name="name" value="generateDebugAndroidTestResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:fbcore:1.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
+                <option name="name" value="prepareComFacebookFrescoFbcore140Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
@@ -1618,6 +1710,11 @@
                 <option name="name" value="prepareComGithubHackware1993MagicIndicator150Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:fresco:1.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
+                <option name="name" value="prepareComFacebookFrescoFresco140Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
                 <option name="name" value="compileDebugRenderscript" />
               </ExternalTaskPojo>
@@ -1642,16 +1739,6 @@
                 <option name="description" value="Runs lint on just the fatal issues in the release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
                 <option name="name" value="lintVitalRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline-base:1.3.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
-                <option name="name" value="prepareComFacebookFrescoImagepipelineBase130Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline:1.3.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
-                <option name="name" value="prepareComFacebookFrescoImagepipeline130Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Debug build." />
@@ -1703,6 +1790,11 @@
                 <option name="description" value="Assembles all Release builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
                 <option name="name" value="assembleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:drawee:1.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/XJC" />
+                <option name="name" value="prepareComFacebookFrescoDrawee140Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support.test.espresso:espresso-core:2.2.2" />
@@ -2447,7 +2539,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="D:\code\Xjc" value="4497099450977" />
-        <entry key="D:\code\xjc_git\xjc" value="6000928670601" />
+        <entry key="D:\code\xjc_git\xjc" value="6001439710169" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2981,65 +3073,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/view/WelcomeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/httpUtils/AssembleUseragent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/httpUtils/genericClient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/api/TiaomanHomeService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/httpUtils/AssembleHttpHead.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/xjcApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/httpUtils/RetrofitClient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/tiaoman_home_item.xml" />
-        <option value="$PROJECT_DIR$/mvpdemo/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/api/HttpService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/interfaces/HttpService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_manhua.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/res/values/values.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/XJC/src/main/res/anim/recycle_loading_progressbar_anim.xml" />
-        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/fragment_tiaoman.xml" />
-        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/recycle_footer.xml" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitClient.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/base/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/MainActivity.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/base/BaseFragment.java" />
-        <option value="$PROJECT_DIR$/XJC/build.gradle" />
-        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/fragment_yuedu.xml" />
-        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/tiaoman_home_item.xml" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/YizhourenqiItemBean.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/YizhourenqiListBean.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_section.xml" />
         <option value="$PROJECT_DIR$/XJC/build/intermediates/res/merged/debug/layout/fragment_manhua.xml" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/YueduFragment.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/XJC/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/fragment_manhua.xml" />
-        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_item.xml" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanItemBean.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanListBean.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanBean.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/YizhourenqiBean.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaYizhourenqiAdapter.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java" />
-        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_section.xml" />
+        <option value="$PROJECT_DIR$/XJC/build.gradle" />
         <option value="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_item.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_yuedu_64dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_remove_red_eye_black_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_rg_txt_selector.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/tabbar_layout.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_manhua.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_manhua_checked_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_quanzi_checked_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_shoucang_checked_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_wode_checked_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_shoucang.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_wode.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/tab_quanzi.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_search_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/fragment_yuedu.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_section.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_shoucang_uncheck_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_manhua_uncheck_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_quanzi_uncheck_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_wode_uncheck_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/tiaoman_home_item.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/drawable/ic_textsms_gray_24dp.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ZhuantiZhuanquItemBean.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ZhuantiZhuanquBean.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_item.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanBean.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/common_section_manhua.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_section.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaHomeCommonBean.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaHomeCommonListBean.java" />
         <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaSectionTitleItemBean.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaSectionTitleBean.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/fragment_manhua.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/zhuanti_area2_manhua.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/res/layout/zhuanti_area1_manhua.xml" />
+        <option value="$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
-    <option name="y" value="-8" />
+    <option name="x" value="93" />
     <option name="width" value="1830" />
-    <option name="height" value="1096" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -3076,123 +3167,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XJC" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XJC" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XJC" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XJC" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XJC" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xjc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XJC" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -3216,13 +3190,34 @@
       <pane id="Scratches">
         <subPane />
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xjc" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xjc" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/android-studio-ide-145.3040006-windows/sdk" />
     <property name="android.project.structure.last.selected" value="Project" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="Nexus_4_API_21" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
@@ -3231,6 +3226,14 @@
     <property name="DEBUGGABLE_PROCESS" value="name.kangjun.xjc" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
+    <property name="VectorAssetImportPath" value="D:\code" />
+    <property name="UI_DESIGNER_EDITOR_MODE.CaptureAnalysis.SHOW" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\xjc_git\xjc\XJC\src\main\res\layout" />
+      <recent name="D:\code\xjc_git\xjc\XJC\src\main\res\drawable" />
+    </key>
   </component>
   <component name="RunManager" selected="Android App.XJC">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -3664,7 +3667,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="-8" width="1830" height="1096" extended-state="0" />
+    <frame x="93" y="0" width="1830" height="1080" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3674,15 +3677,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44025835" sideWeight="0.502265" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48116255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7771798" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.497735" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24971688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23499434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22480181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24971688" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12302483" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3696,6 +3698,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="198" y="92" width="1630" height="896" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3761,301 +3764,290 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="56" />
+      <option name="time" value="62" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="XJC">
+        <watch expression="jingtiaoxixuanItems" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/Android_sdk_home/.android/build-cache/e5cf56dd60b85b31653e637a0484181a08db0246/output/jars/classes.jar!/net/lucode/hackware/magicindicator/buildins/commonnavigator/indicators/WrapPagerIndicator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/android-studio-ide-145.3040006-windows/sdk/platforms/android-25/data/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Android_sdk_home/.android/build-cache/e5cf56dd60b85b31653e637a0484181a08db0246/output/jars/classes.jar!/net/lucode/hackware/magicindicator/buildins/commonnavigator/titles/ClipPagerTitleView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/base/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/fragment_tiaoman.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        <state relative-caret-position="95">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/xjcApplication.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/drawable/ic_manhua_checked_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitClient.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/drawable/ic_shoucang_uncheck_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/TiaomanHomeItemBean.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/drawable/ic_wode_uncheck_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/android-studio-ide-145.3040006-windows/sdk/sources/android-25/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="5485" column="16" selection-start-line="5485" selection-start-column="16" selection-end-line="5485" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/android-studio-ide-145.3040006-windows/sdk/sources/android-21/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="755" column="17" selection-start-line="755" selection-start-column="17" selection-end-line="755" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/TiaomanHomeListBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/TiaomanHomeBean.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/drawable/ic_manhua_uncheck_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/ExecutorCallAdapterFactory.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/drawable/ic_quanzi_uncheck_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/YizhourenqiListBean.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/drawable/ic_textsms_gray_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        <state relative-caret-position="114">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/YizhourenqiItemBean.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/recycle_footer.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="780">
+          <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/YueduFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+        <state relative-caret-position="266">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
-            <element signature="e#3467#3468#0" expanded="false" />
-            <element signature="e#3519#3520#0" expanded="false" />
-            <element signature="e#5189#5190#0" expanded="false" />
-            <element signature="e#5222#5223#0" expanded="false" />
-            <element signature="e#5298#5299#0" expanded="false" />
-            <element signature="e#5347#5348#0" expanded="false" />
+            <element signature="e#2416#2417#0" expanded="false" />
+            <element signature="e#2462#2463#0" expanded="false" />
             <element signature="e#6351#6352#0" expanded="false" />
             <element signature="e#6395#6396#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="130" column="38" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/build/intermediates/res/merged/debug/layout/fragment_manhua.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/mipmap-xhdpi/iv_loading_chongniang.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/mipmap-xhdpi/comment_icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/fragment_yuedu.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XJC/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="26" />
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/tiaoman_home_item.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_item.xml">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/fragment_tiaoman.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/db21293949e200f08d5325e8a8eefdcc9134b752/okhttp-3.8.0-sources.jar!/okhttp3/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/438355cc604d9c87dedc84fd2c05924e4e6d2ce3/converter-gson-2.3.0-sources.jar!/retrofit2/converter/gson/GsonConverterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Android_sdk_home/.android/build-cache/30f94f4fc72e546e70f74bc9480ecd307bbe5b4d/output/res/layout/abc_activity_chooser_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvpdemo/src/main/java/com/example/xu/mvpdemo/model/interfaces/ILogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvpdemo/src/main/java/com/example/xu/mvpdemo/model/LoginBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvpdemo/src/main/java/com/example/xu/mvpdemo/view/interfaces/ILoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvpdemo/src/main/java/com/example/xu/mvpdemo/model/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvpdemo/src/main/java/com/example/xu/mvpdemo/view/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvpdemo/src/main/java/com/example/xu/mvpdemo/model/interfaces/OnLoginListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvpdemo/src/main/java/com/example/xu/mvpdemo/presenter/LoginPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/TiaomanFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ZhuantiZhuanquItemBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ZhuantiZhuanquBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/common_section_manhua.xml" />
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/YizhourenqiItemBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/android-studio-ide-145.3040006-windows/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.3.1/recyclerview-v7-25.3.1-sources.jar!/android/support/v7/widget/GridLayoutManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="279">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.recker.flybanner/flybanner/1.3/880667d4c0cfe64432c0d499b28c012b2187256d/flybanner-1.3-sources.jar!/com/recker/flybanner/FlyBanner.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/YizhourenqiListBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="19">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaHomeCommonItemBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="456">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaSectionTitleItemBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaSectionTitleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captures/name.kangjun.xjc_2017.07.31_16.56.hprof">
+      <provider selected="true" editor-type-id="capture-editor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/mipmap-xhdpi/iv_djc_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/mipmap-xhdpi/xsearch_loading.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaBannerBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#1375#1376#0" expanded="false" />
-            <element signature="e#1402#1403#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/YizhourenqiBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#900#901#0" expanded="false" />
-            <element signature="e#927#928#0" expanded="false" />
-            <element signature="e#1164#1165#0" expanded="false" />
-            <element signature="e#1191#1192#0" expanded="false" />
-            <element signature="e#1245#1246#0" expanded="false" />
-            <element signature="e#1277#1278#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaBannerItemBean.java">
@@ -4065,192 +4057,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanBean.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaBannerBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="e#821#822#0" expanded="false" />
-            <element signature="e#858#859#0" expanded="false" />
-            <element signature="e#890#891#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
-            <element signature="e#946#947#0" expanded="false" />
-            <element signature="e#984#985#0" expanded="false" />
-            <element signature="e#1014#1015#0" expanded="false" />
-            <element signature="e#1061#1062#0" expanded="false" />
-            <element signature="e#1088#1089#0" expanded="false" />
-            <element signature="e#1144#1145#0" expanded="false" />
-            <element signature="e#1176#1177#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanListBean.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaHomeCommonListBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/JingtiaoxixuanItemBean.java">
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/httpUtils/RetrofitAPIManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1912#1913#0" expanded="true" />
-            <element signature="e#1946#1947#0" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2106#2107#0" expanded="true" />
-            <element signature="e#2148#2149#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-            <element signature="e#2342#2343#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2422#2423#0" expanded="true" />
-            <element signature="e#2458#2459#0" expanded="true" />
-            <element signature="e#2490#2491#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2619#2620#0" expanded="true" />
-            <element signature="e#2652#2653#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2748#2749#0" expanded="true" />
-            <element signature="e#2784#2785#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2866#2867#0" expanded="true" />
-            <element signature="e#2908#2909#0" expanded="true" />
-            <element signature="e#2942#2943#0" expanded="true" />
-            <element signature="e#2972#2973#0" expanded="true" />
-            <element signature="e#3018#3019#0" expanded="true" />
-            <element signature="e#3056#3057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/TiaomanHomeAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1253">
-          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaYizhourenqiAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          <folding>
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="57" column="85" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/fragment_manhua.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="228">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/yizhourenqi_section.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/manhua_common_section_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        <state relative-caret-position="741">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/zhuanti_area1_manhua.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/zhuanti_area2_manhua.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/fragment_manhua.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/model/ManhuaHomeCommonBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/interfaces/HttpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/tiaoman_home_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="323">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/res/layout/jingtiaoxixuan_section.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/base/BaseFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="152">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/view/ManhuaFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="160" column="49" selection-start-line="160" selection-start-column="49" selection-end-line="160" selection-end-column="49" />
-          <folding>
-            <element signature="e#3614#3980#0" expanded="true" />
-            <element signature="e#3979#3980#0" expanded="true" />
-            <element signature="method#onFailure#0;class#4767:5853" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XJC/src/main/java/name/kangjun/xjc/adapter/ManhuaJingtiaoxixuanAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="589">
+          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
           <folding />
         </state>
       </provider>

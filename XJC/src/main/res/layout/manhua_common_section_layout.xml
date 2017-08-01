@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jingtiaoxixuan_area"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="@color/whiteColor"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/section_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/title_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/ed_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/more_button"
+            android:layout_width="40dp"
+            android:layout_height="18dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/more_button_shape"
+            android:gravity="center"
+            android:text="更多"
+            android:textColor="@color/whiteColor"
+            android:textSize="10sp"
+            tools:ignore="HardcodedText,SmallSp" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/content_recycler"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

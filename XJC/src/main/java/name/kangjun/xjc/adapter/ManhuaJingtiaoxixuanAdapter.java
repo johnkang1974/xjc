@@ -11,7 +11,7 @@ import com.facebook.drawee.view.SimpleDraweeView;
 import java.util.List;
 
 import name.kangjun.xjc.R;
-import name.kangjun.xjc.model.JingtiaoxixuanItemBean;
+import name.kangjun.xjc.model.ManhuaHomeCommonItemBean;
 
 /**
  * 漫画——精挑细选
@@ -19,23 +19,36 @@ import name.kangjun.xjc.model.JingtiaoxixuanItemBean;
  */
 
 public class ManhuaJingtiaoxixuanAdapter extends RecyclerView.Adapter<ManhuaJingtiaoxixuanAdapter.ViewHolder> {
-    private List<JingtiaoxixuanItemBean> items;
+    private List<ManhuaHomeCommonItemBean> items;
+    private int style = 0;      //0：横图  1：竖图
 
-    public ManhuaJingtiaoxixuanAdapter(List<JingtiaoxixuanItemBean> items) {
+    /**
+     * @param items 网络请求的返回结果集
+     * @param style 0：横图  1：竖图
+     */
+    public ManhuaJingtiaoxixuanAdapter(List<ManhuaHomeCommonItemBean> items, int style) {
         this.items = items;
+        this.style = style;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.jingtiaoxixuan_item,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.jingtiaoxixuan_item, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.manhuaCover.setImageURI(items.get(position).getThumb_1());
+        if (style ==0){
+            holder.manhuaCover.setImageURI(items.get(position).getThumb_1());
+            holder.manhuaCover.setAspectRatio(1.78f);
+        }else{
+            holder.manhuaCover.setImageURI(items.get(position).getThumb());
+            holder.manhuaCover.setAspectRatio(0.75f);
+        }
         holder.manhuaName.setText(items.get(position).getTitle());
-        holder.manhuaAuthor.setText(items.get(position).getTitle());
+        holder.manhuaAuthor.setText(items.get(position).getAuthor());
+
     }
 
     @Override
@@ -43,7 +56,7 @@ public class ManhuaJingtiaoxixuanAdapter extends RecyclerView.Adapter<ManhuaJing
         return items.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder {
         private SimpleDraweeView manhuaCover;
         private TextView manhuaName;
         private TextView manhuaAuthor;
