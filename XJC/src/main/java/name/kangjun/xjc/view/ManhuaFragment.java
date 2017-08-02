@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -25,7 +26,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import name.kangjun.xjc.R;
-import name.kangjun.xjc.adapter.ManhuaJingtiaoxixuanAdapter;
+import name.kangjun.xjc.adapter.ManhuaHomeCommonItemAdapter;
 import name.kangjun.xjc.adapter.ManhuaYizhourenqiAdapter;
 import name.kangjun.xjc.base.BaseFragment;
 import name.kangjun.xjc.httpUtils.RetrofitAPIManager;
@@ -48,7 +49,7 @@ import retrofit2.Response;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ManhuaFragment extends BaseFragment {
+public class ManhuaFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
     private Context mContext;
     private LinearLayoutManager mYizhourenqiLLM;
     private ManhuaYizhourenqiAdapter mYizhourenqiAdpater;
@@ -89,6 +90,8 @@ public class ManhuaFragment extends BaseFragment {
     View mGaoxiaoView;
     @BindView(R.id.riman)
     View mRimanView;
+    @BindView(R.id.swipeRefresh_manhua_home)
+    SwipeRefreshLayout swipeRefreshLayout;
 
 
     @Override
@@ -106,20 +109,28 @@ public class ManhuaFragment extends BaseFragment {
         if (null != mView)
             ButterKnife.bind(this, mView);
         intiView();
+        getDataFromDB();
+        getDataFromNetwork();
 
+        return mView;
+    }
+
+    private void getDataFromNetwork() {
         getManhuaBanner();              //轮播图
         getSectionTitle();              //获得各专区的title文字
         getYizhourenqiSection();        //一周人气
+        getCommonSection(1, 3, 0);        //精挑细选
         getZhuantiZhuanquSection();     //拿专区和专题的信息
-        getCommonSection(1, 2, 0);        //精挑细选
         getCommonSection(20, 3, 1);       //新作推荐
         getCommonSection(18, 3, 1);       //刚刚更新
         getCommonSection(21, 3, 1);       //爽快向
         getCommonSection(28, 3, 1);       //女生向
         getCommonSection(23, 3, 1);       //搞笑向
         getCommonSection(27, 3, 1);       //日漫
+    }
 
-        return mView;
+    private void getDataFromDB() {
+
     }
 
 
@@ -194,7 +205,7 @@ public class ManhuaFragment extends BaseFragment {
                     mYizhourenqiLLM.setOrientation(LinearLayoutManager.HORIZONTAL);
                     mYizhourenqi_recycler.setLayoutManager(mYizhourenqiLLM);
                     mYizhourenqi_recycler.setHasFixedSize(true);
-                    mYizhourenqiAdpater = new ManhuaYizhourenqiAdapter(yizhourenqiItems);
+                    mYizhourenqiAdpater = new ManhuaYizhourenqiAdapter(mContext,yizhourenqiItems);
                     mYizhourenqi_recycler.setAdapter(mYizhourenqiAdpater);
                 }
             }
@@ -346,9 +357,14 @@ public class ManhuaFragment extends BaseFragment {
                 ManhuaHomeCommonBean commonBean = response.body();
                 if (null != commonBean && 0 == commonBean.getCode()) {
                     List<ManhuaHomeCommonItemBean> commonItems = commonBean.getData().getData();
-                    GridLayoutManager gridLayoutManager = new GridLayoutManager(mContext, colums);
-                    gridLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
-                    ManhuaJingtiaoxixuanAdapter commonSectionAdapter = new ManhuaJingtiaoxixuanAdapter(commonItems, picStyle);
+                    GridLayoutManager gridLayoutManager = new GridLayoutManager(mContext, colums){
+                        @Override
+                        public boolean canScrollVertically() {
+                            return false;
+                        }
+                    };
+                    gridLayoutManager.setOrientation(GridLayoutManager.VERTICAL);
+                    ManhuaHomeCommonItemAdapter commonSectionAdapter = new ManhuaHomeCommonItemAdapter(commonItems, picStyle);
                     switch (type) {
                         case 1:
                             mJingtiaoxixuan_recycler.setLayoutManager(gridLayoutManager);
@@ -400,6 +416,10 @@ public class ManhuaFragment extends BaseFragment {
 
 
     private void intiView() {
+        //精挑细选
+        jingtiaoxixuanTitle = ButterKnife.findById(mJingtiaoxixuanView, R.id.title_TV);
+        mJingtiaoxixuan_recycler = ButterKnife.findById(mJingtiaoxixuanView, R.id.content_recycler);
+
         mArea1Title = ButterKnife.findById(section1View, R.id.zhuanti_area_title);
         mArea1Image = ButterKnife.findById(section1View, R.id.image_zhuanti);
         mArea2LeftImage = ButterKnife.findById(section2View, R.id.left_image);
@@ -412,10 +432,6 @@ public class ManhuaFragment extends BaseFragment {
 
         RelativeLayout mArea5RelativeLayout = ButterKnife.findById(section5View, R.id.section_title);
         mArea5RelativeLayout.setVisibility(View.GONE);
-
-
-        jingtiaoxixuanTitle = ButterKnife.findById(mJingtiaoxixuanView, R.id.title_TV);
-        mJingtiaoxixuan_recycler = ButterKnife.findById(mJingtiaoxixuanView, R.id.content_recycler);
 
         //新作推荐
         xinzuotuijianTitle = ButterKnife.findById(xinzuuotuijianView, R.id.title_TV);
@@ -440,7 +456,14 @@ public class ManhuaFragment extends BaseFragment {
         //日漫
         mRimanTitle = ButterKnife.findById(mRimanView, R.id.title_TV);
         mRiman_recycler = ButterKnife.findById(mRimanView, R.id.content_recycler);
+
+        swipeRefreshLayout.setOnRefreshListener(this);
     }
 
+    @Override
+    public void onRefresh() {
+        getDataFromNetwork();
+        swipeRefreshLayout.setRefreshing(false);
+    }
 }
 

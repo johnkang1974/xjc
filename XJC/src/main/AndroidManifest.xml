@@ -22,6 +22,10 @@
         <activity
             android:name=".view.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.ManhuaDetailActivity"
+            android:label="@string/title_activity_manhua_detail"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

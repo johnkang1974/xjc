@@ -32,7 +32,7 @@ public class ManhuaHomeCommonItemBean {
     private String typeid;
     private String thumb;
     private String description;
-    private String gx_type;
+    private int gx_type;
     private String update_chapter_name;
     private String author;
     private String status_bz;
@@ -88,11 +88,11 @@ public class ManhuaHomeCommonItemBean {
         this.description = description;
     }
 
-    public String getGx_type() {
+    public int getGx_type() {
         return gx_type;
     }
 
-    public void setGx_type(String gx_type) {
+    public void setGx_type(int gx_type) {
         this.gx_type = gx_type;
     }
 

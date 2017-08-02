@@ -11,6 +11,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 /**
+ *
  * Created by Kangjun on 2017/7/10.
  */
 
@@ -82,12 +83,12 @@ public interface HttpService {
 
     /**
      *http://dajiaochong.517w.com/dacu_app/app/?c=LogicCommon&a=get_main_recommend_title&ui=0&ui_id=0&userid=0
-     * @param C
-     * @param A
-     * @param ui
-     * @param ui_id
-     * @param userID
-     * @return
+     * @param paramC 固定参数
+     * @param paramA 固定参数
+     * @param ui 固定参数
+     * @param ui_id 固定参数
+     * @param userID 用户ID
+     * @return ManhuaSectionTitleBean
      */
     @GET("app/")
     Call<ManhuaSectionTitleBean> get_main_recommend_title(@Query("c") String paramC,

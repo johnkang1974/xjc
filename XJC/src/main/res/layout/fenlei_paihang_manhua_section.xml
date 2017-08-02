@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/whiteColor"
+    android:paddingBottom="5dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/gender"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/gender_style"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/gender_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/male"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="男生"
+            android:textColor="@color/whiteColor"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fenlei_button"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/fengleipaihang_button_shape"
+        android:gravity="center"
+        android:text="分 类"
+        android:textColor="@color/whiteColor"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/paihang_button"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/fengleipaihang_button_shape"
+        android:gravity="center"
+        android:text="排 行"
+        android:textColor="@color/whiteColor"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+</LinearLayout>

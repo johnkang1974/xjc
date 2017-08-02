@@ -1,6 +1,7 @@
 <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefresh_manhua_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -9,16 +10,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/bg_gray_color"
+        android:scrollbars="none"
         tools:context="name.kangjun.xjc.view.ManhuaFragment">
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <android.support.v4.widget.SwipeRefreshLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
             <com.recker.flybanner.FlyBanner
                 android:id="@+id/banner_manhua"
@@ -27,6 +27,9 @@
                 android:background="@color/whiteColor"
                 app:points_position="RIGHT"
                 app:points_visibility="true" />
+
+            <!--分类排行区域-->
+            <include layout="@layout/fenlei_paihang_manhua_section" />
 
             <!-- 本周人气 -->
             <include layout="@layout/yizhourenqi_section" />

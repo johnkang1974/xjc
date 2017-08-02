@@ -23,8 +23,7 @@
             android:gravity="center"
             android:text="@string/ed_title"
             android:textColor="@color/colorAccent"
-            android:textSize="10sp"
-            tools:ignore="SmallSp" />
+            android:textSize="12sp"/>
 
         <TextView
             android:id="@+id/more_button"
@@ -45,5 +44,5 @@
         android:id="@+id/content_recycler"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent"/>
 </LinearLayout>
